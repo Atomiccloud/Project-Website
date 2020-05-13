@@ -1,0 +1,75 @@
+.container {
+  max-width: $width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+// background colors
+.bg-dark {
+  color: #fff;
+  background: $dark;
+}
+.bg-light {
+  color: #000;
+  background: $light;
+}
+.bg-main-color {
+  color: #000;
+  background: $main-color;
+}
+.bg-secondary {
+  color: #fff;
+  background: $secondary;
+}
+.bg-medium {
+  color: $light;
+  background: $medium;
+}
+
+// padding
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+
+// margin
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
+
+// span
+span.sp-main {
+  color: $main-color;
+}
+
+span.sp-secondary {
+  color: $secondary;
+}
+
+// text
+h1.light-text {
+  color: $dark;
+  font-weight: 300;
+}
+
+.lead {
+  font-size: 3rem;
+}
